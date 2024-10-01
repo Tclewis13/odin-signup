@@ -35,3 +35,55 @@ body{
     height: 15vh;
     width: auto;
 }
+.header{
+    display:flex;
+    flex-direction: column;
+}
+.text1{
+    font-size:26px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 50px;
+    margin-top: 150px;
+}
+.text2{
+    font-size:26px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 50px;
+    margin-top: 0px;
+}
+.form{
+    margin:50px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+form{
+    display:flex;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form_header{
+    font-size:26px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-bottom:20px;
+}
+.have_account{
+    margin:50px; 
+}
+.field{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+}
+label{
+    width:300px;
+}
+input{
+    width:300px;
+}
