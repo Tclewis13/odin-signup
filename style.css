@@ -17,6 +17,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height:100vh;
+}
+.credit{
+    position:absolute;
+    color: white;
+    bottom: 10px;
+    font-weight: lighter;
+    font-size:15px;
 }
 .logo_container{
     height: 20vh;
@@ -44,7 +52,6 @@ body{
     font-weight: bolder;
     font-family: sans-serif;
     margin: 50px;
-    margin-top: 150px;
 }
 .text2{
     font-size:26px;
@@ -56,6 +63,7 @@ body{
 .form{
     margin:50px;
     margin-top: 0px;
+    margin-bottom:0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -71,19 +79,56 @@ form{
     font-size:26px;
     font-weight: bolder;
     font-family: sans-serif;
-    margin-bottom:20px;
+    margin-bottom:5px;
 }
 .have_account{
-    margin:50px; 
+    margin-left:50px;
+    margin-top:15px;
 }
 .field{
     display:flex;
     flex-direction: column;
     width: 300px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:10px;
+    font-family: sans-serif;
 }
 label{
     width:300px;
+    padding: 2px;
+    font-size: 18px;
 }
 input{
-    width:300px;
+    width:200px;
+    height:25px;
+    font-size: 18px;
+    border-color: #E5E7EB;
+}
+.submit_button{
+    width: 200px;
+    height:40px;
+    justify-content: center;
+    margin-top:20px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.submit_button:active{
+    background-color: #2d3a22;
+    box-shadow: 0 5px gray;
+    transform: translateY(2px);
+
+}
+input:invalid {
+    border-color: red;
+  }
+input:focus{
+    border-color: blue;
+    box-shadow: 2px 2px 2px black;
+}
+.have_account span{
+    color: #596D48
 }
